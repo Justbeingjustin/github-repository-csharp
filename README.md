@@ -33,7 +33,7 @@ captures real time github repository information
 using Github;
 using System;
 
-namespace ConsoleApp12
+namespace ConsoleApp1
 {
     public class Program
     {
