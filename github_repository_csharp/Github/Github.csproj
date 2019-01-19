@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461;net45</TargetFrameworks>
+    <PackageId>github-repository-csharp</PackageId>
+    <Authors>Justin Gerber</Authors>
+    <Product>Justin Gerber</Product>
+    <PackageLicenseUrl>https://github.com/Justbeingjustin/github-repository-csharp</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Justbeingjustin/github-repository-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Justbeingjustin/github-repository-csharp</RepositoryUrl>
+  </PropertyGroup>
+</Project>
