@@ -1,6 +1,6 @@
 # github-repository-csharp
 captures real time github repository information 
-
+# ![Logo](Images/github.png) 
 
 ### Table of Contents
 **[Available For](#available-for)**<br>
@@ -27,6 +27,8 @@ captures real time github repository information
 
 
 ## Usage
+
+
 
 
 ```
