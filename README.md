@@ -41,7 +41,7 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            var githubRepoCoordinator = new GithubRepositoryCoordinator("https://github.com/btccom/btcpool");
+            var githubRepoCoordinator = new GithubRepositoryCoordinator("https://github.com/bitcoin/bitcoin");
             var repositoryDetails = githubRepoCoordinator.GetRepositoryDetails();
 
             Console.WriteLine(repositoryDetails.Watches);
