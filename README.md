@@ -1,5 +1,5 @@
 # github-repository-csharp
-captures real time github repository information 
+This library captures github repository information.
 # ![Logo](Images/github.png) 
 
 ### Table of Contents
