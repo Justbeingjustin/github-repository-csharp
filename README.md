@@ -1,5 +1,5 @@
 # github-repository-csharp
-This library captures github repository information. The library captures the number of watchers, stars, forks, issues, pull requests, commits, branches, releases, and contributors.
+This library captures a few github repository metrics. The library captures the number of watchers, stars, forks, issues, pull requests, commits, branches, releases, and contributors.
 # ![Logo](Images/github.png) 
 
 ### Table of Contents
