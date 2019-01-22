@@ -7,7 +7,7 @@ namespace Github.Tests.TextCollectors
     {
         public string GetBitcoinHTML()
         {
-            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Github.Tests.Files.bitcoin.html"))
+            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Github.Tests.Files.bitcoin.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 return reader.ReadToEnd();
