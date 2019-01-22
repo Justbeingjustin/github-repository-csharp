@@ -3,11 +3,11 @@ using System;
 
 namespace Github.Analyzers
 {
-    public class BranchAnalyzer
+    public class BranchesAnalyzer
     {
         private readonly string _html;
 
-        public BranchAnalyzer(string html)
+        public BranchesAnalyzer(string html)
         {
             _html = html;
         }

@@ -3,11 +3,11 @@ using System;
 
 namespace Github.Analyzers
 {
-    public class ForkAnalyzer
+    public class ForksAnalyzer
     {
         private readonly string _html;
 
-        public ForkAnalyzer(string html)
+        public ForksAnalyzer(string html)
         {
             _html = html;
         }

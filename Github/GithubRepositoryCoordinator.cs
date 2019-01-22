@@ -20,15 +20,15 @@ namespace Github
             var html = HTMLCollector.Collect();
 
             var githubRepository = new GithubRepository(
-               new WatchAnalyzer(html),
+               new WatchesAnalyzer(html),
                new StarsAnalyzer(html),
                new ReleasesAnalyzer(html),
-               new PullRequestAnalyzer(html),
+               new PullRequestsAnalyzer(html),
                new IssuesAnalyzer(html),
-               new ForkAnalyzer(html),
+               new ForksAnalyzer(html),
                new ContributorsAnalyzer(html),
                new CommitsAnalyzer(html),
-               new BranchAnalyzer(html));
+               new BranchesAnalyzer(html));
 
             return githubRepository.GetRepositoryDetails();
         }

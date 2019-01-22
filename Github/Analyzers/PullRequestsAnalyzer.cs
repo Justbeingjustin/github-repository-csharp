@@ -3,11 +3,11 @@ using System;
 
 namespace Github.Analyzers
 {
-    public class PullRequestAnalyzer
+    public class PullRequestsAnalyzer
     {
         private readonly string _html;
 
-        public PullRequestAnalyzer(string html)
+        public PullRequestsAnalyzer(string html)
         {
             _html = html;
         }

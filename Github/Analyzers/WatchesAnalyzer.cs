@@ -3,11 +3,11 @@ using System;
 
 namespace Github.Analyzers
 {
-    public class WatchAnalyzer
+    public class WatchesAnalyzer
     {
         private readonly string _html;
 
-        public WatchAnalyzer(string html)
+        public WatchesAnalyzer(string html)
         {
             _html = html;
         }

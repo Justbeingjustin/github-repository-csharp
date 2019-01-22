@@ -5,21 +5,21 @@ namespace Github.Services
 {
     public class GithubRepository : IGithubRepository
     {
-        private readonly WatchAnalyzer _watchAnalyzer;
+        private readonly WatchesAnalyzer _watchAnalyzer;
         private readonly StarsAnalyzer _starsAnalyzer;
         private readonly ReleasesAnalyzer _releasesAnalyzer;
-        private readonly PullRequestAnalyzer _pullRequestAnalyzer;
+        private readonly PullRequestsAnalyzer _pullRequestAnalyzer;
         private readonly IssuesAnalyzer _issuesAnalyzer;
-        private readonly ForkAnalyzer _forkAnalyzer;
+        private readonly ForksAnalyzer _forkAnalyzer;
         private readonly ContributorsAnalyzer _contributorsAnalyzer;
         private readonly CommitsAnalyzer _commitsAnalyzer;
-        private readonly BranchAnalyzer _branchAnalyzer;
+        private readonly BranchesAnalyzer _branchAnalyzer;
 
-        public GithubRepository(WatchAnalyzer watchAnalyzer, StarsAnalyzer starsAnalyzer,
-            ReleasesAnalyzer releasesAnalyzer, PullRequestAnalyzer pullRequestAnalyzer,
-            IssuesAnalyzer issuesAnalyzer, ForkAnalyzer forkAnalyzer,
+        public GithubRepository(WatchesAnalyzer watchAnalyzer, StarsAnalyzer starsAnalyzer,
+            ReleasesAnalyzer releasesAnalyzer, PullRequestsAnalyzer pullRequestAnalyzer,
+            IssuesAnalyzer issuesAnalyzer, ForksAnalyzer forkAnalyzer,
             ContributorsAnalyzer contributorsAnalyzer,
-            CommitsAnalyzer commitsAnalyzer, BranchAnalyzer branchAnalyzer)
+            CommitsAnalyzer commitsAnalyzer, BranchesAnalyzer branchAnalyzer)
         {
             _watchAnalyzer = watchAnalyzer;
             _starsAnalyzer = starsAnalyzer;
