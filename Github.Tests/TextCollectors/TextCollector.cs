@@ -13,5 +13,14 @@ namespace Github.Tests.TextCollectors
                 return reader.ReadToEnd();
             }
         }
+
+        public string GetRippleOneIssueHTML()
+        {
+            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Github.Tests.Files.ripple-one-issue.txt"))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
+            }
+        }
     }
 }

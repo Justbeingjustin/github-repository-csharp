@@ -16,7 +16,7 @@ namespace Github.Analyzers
         {
             var remainingText = _html.Substring(_html.IndexOf("a class=\"social-count js-social-count\" href=\""));
             remainingText = remainingText.Between("a class=\"social-count js-social-count\" href=\"", "</a>");
-            remainingText = remainingText.Between("aria-label=\"", " users starred this");
+            remainingText = remainingText.Between("aria-label=\"", " user");
             return Convert.ToInt64(remainingText);
         }
     }

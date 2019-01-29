@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Files\bitcoin.html" />
+    <None Remove="Files\bitcoin.txt" />
+    <None Remove="Files\ripple-one-issue.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Files\bitcoin.html" />
+    <EmbeddedResource Include="Files\ripple-one-issue.txt" />
+    <EmbeddedResource Include="Files\bitcoin.txt" />
   </ItemGroup>
 
   <ItemGroup>
