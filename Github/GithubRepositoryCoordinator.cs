@@ -16,8 +16,9 @@ namespace Github
         public GithubRepositoryDetails GetRepositoryDetails()
         {
             var HTMLCollector = new HTMLCollector(_url); // we could pass this in through the constructor, but this simplifies the client code.
-
+            var contributorCollector = new HTMLCollector(_url + "/contributors_size");
             var html = HTMLCollector.Collect();
+            var contributorHTML = contributorCollector.Collect();
 
             var githubRepository = new GithubRepository(
                new WatchesAnalyzer(html),
@@ -26,7 +27,7 @@ namespace Github
                new PullRequestsAnalyzer(html),
                new IssuesAnalyzer(html),
                new ForksAnalyzer(html),
-               new ContributorsAnalyzer(html),
+               new ContributorsAnalyzer(contributorHTML),
                new CommitsAnalyzer(html),
                new BranchesAnalyzer(html));
 

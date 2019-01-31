@@ -8,6 +8,6 @@
     <PackageLicenseUrl>https://github.com/Justbeingjustin/github-repository-csharp</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Justbeingjustin/github-repository-csharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Justbeingjustin/github-repository-csharp</RepositoryUrl>
-    <Version>3.0.0</Version>
+    <Version>4.0.0</Version>
   </PropertyGroup>
 </Project>
