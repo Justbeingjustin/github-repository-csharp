@@ -39,7 +39,7 @@ namespace Github.Services
                 Watches = _watchAnalyzer.GetWatchers(),
                 Branches = _branchAnalyzer.GetBranches(),
                 Commits = _commitsAnalyzer.GetCommits(),
-                Contributors = _commitsAnalyzer.GetCommits(),
+                Contributors = _contributorsAnalyzer.GetContributors(),
                 Forks = _forkAnalyzer.GetForks(),
                 Issues = _issuesAnalyzer.GetIssues(),
                 PullRequests = _pullRequestAnalyzer.GetPullRequests(),
